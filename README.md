@@ -42,6 +42,35 @@ The main activities include:
 
 ---
 
+## Types of Requirements
+
+### Functional Requirements
+Functional requirements describe **what the system should do** — the features and functionalities that allow users to achieve their goals.
+
+**Examples for the Booking Management System:**
+- User registration and login  
+- Search for properties based on location, dates, and filters  
+- Book a property and process payment  
+- Property owners can list, update, and remove their properties  
+- Admin can manage users, listings, and bookings  
+- Generate booking confirmations and receipts  
+- Cancel or modify bookings  
+
+---
+
+### Non-Functional Requirements
+Non-functional requirements describe **how the system performs** — the qualities or constraints that ensure the system is reliable, efficient, and usable.
+
+**Examples for the Booking Management System:**
+- Performance: Pages load within 2 seconds  
+- Security: User credentials and payments are encrypted  
+- Scalability: Support thousands of simultaneous users and listings  
+- Availability: System accessible 24/7 with high uptime  
+- Usability: Intuitive and responsive user interface across devices  
+- Maintainability: System can be updated or extended easily  
+- Reliability: Accurate booking and payment processing without errors
+
+
 ## ⚙ Functional Requirements
 Functional requirements define **what the system should do**. Examples include:
 
