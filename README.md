@@ -1,126 +1,101 @@
-# Booking Management System — Requirement Analysis
+# Requirement Analysis in Software Development
 
-A requirement analysis project for a property rental reservation platform inspired by Airbnb.
-
----
-
-## 📌 About the Project
-This project focuses on building a comprehensive foundation for a Booking Management System through structured requirement gathering, documentation, and modeling. It simulates a real-world software development scenario where clarity and detail in requirements ensure successful implementation.
+## 📌 Introduction
+This repository focuses on **Requirement Analysis** in the Software Development Life Cycle (SDLC). It covers the process of identifying, documenting, and analyzing software requirements. The goal is to ensure that the system meets stakeholder expectations, reduces errors, and provides a clear blueprint for development.
 
 ---
 
-## 🎯 Learning Objectives
-- Apply Requirement Analysis principles in the SDLC  
-- Document business and user requirements professionally  
-- Identify functional and non-functional requirements  
-- Use diagrams to visualize system interactions  
-- Define acceptance criteria aligned with stakeholder goals  
-- Produce industry-standard requirement analysis documentation
+## 🧠 What is Requirement Analysis?
+Requirement Analysis is a critical phase in the SDLC where stakeholders' needs are collected, clarified, and documented to guide software development. This phase involves:
+
+- Gathering requirements from stakeholders  
+- Translating business needs into structured software specifications  
+- Identifying conflicts or ambiguities early  
+- Creating a foundation for design, development, and testing  
+
+Proper requirement analysis ensures that the final software product meets user expectations and reduces costly errors during development.
 
 ---
 
-## 🏡 System Overview
-The system allows property owners to list rental accommodations and users to search, book, and pay for their stays online.
+## ⭐ Why is Requirement Analysis Important?
+Requirement Analysis is essential because:
 
-Key capabilities include:
-- Property listing and management
-- User registration and authentication
-- Booking creation and cancellation
-- Payment confirmation and notifications
+1. **Prevents Scope Creep**  
+   Defines project boundaries clearly to avoid unplanned changes that increase cost and time.
 
----
+2. **Reduces Development Errors**  
+   Ensures that features are built correctly the first time, minimizing rework.
 
-## ✅ Project Scope
-
-### In Scope
-- User account management
-- Property listing and administration
-- Searching and filtering rentals
-- Reservation and payment workflows
-- Admin monitoring of bookings and listings
-
-### Out of Scope
-- Physical check-in/check-out processes
-- Messaging between users and hosts
-- Integration with external booking platforms
-- Automated pricing or recommendation engines
+3. **Enhances Stakeholder Satisfaction**  
+   Ensures the final product aligns with business goals and user expectations.
 
 ---
 
-## 📂 Project Deliverables
-| File Name | Description |
-|----------|-------------|
-| `README.md` | Project overview and requirement summary |
-| `functional-requirements.md` | Full list of functional requirements |
-| `non-functional-requirements.md` | Defined system quality requirements |
-| `use-case-descriptions.md` | Detailed step-by-step use case flows |
-| `use-case-diagram.png` | Visual representation of system actors and interactions |
-| `acceptance-criteria.md` | Feature acceptance validation conditions |
-| `srs.md` | Complete Software Requirements Specification |
+## 🔍 Key Activities in Requirement Analysis
+The main activities include:
+
+- **Requirement Gathering**: Collecting information from stakeholders via interviews, surveys, and workshops.  
+- **Requirement Elicitation**: Refining requirements using brainstorming, prototyping, and observation.  
+- **Requirement Documentation**: Writing clear, structured documents such as SRS, use cases, and diagrams.  
+- **Requirement Analysis and Modeling**: Classifying, prioritizing, and visualizing requirements.  
+- **Requirement Validation**: Reviewing requirements with stakeholders to ensure accuracy and feasibility.
 
 ---
 
-## ⭐ Requirements Summary
+## ⚙ Functional Requirements
+Functional requirements define **what the system should do**. Examples include:
 
-### Functional Requirements (Overview)
-The system must allow:
-- Secure login and registration
-- Property searching, viewing, and filtering
-- Property owners to add/manage listings
-- Bookings and payments for available rentals
-- Admin management of system data
-
-📌 Full content in: `functional-requirements.md`
+- User registration and login  
+- Property listing management  
+- Search and filter properties  
+- Booking creation and cancellation  
+- Payment processing  
+- Admin management of users, listings, and bookings  
 
 ---
 
-### Non-Functional Requirements (Overview)
-- Performance: ≤ 2 seconds page load time
-- Security: Encrypted user & payment data
-- Scalability: Support high traffic and growth
-- Usability: Clear navigation and simple booking
-- High system availability for global users
+## 🛡 Non-Functional Requirements
+Non-functional requirements define **how the system performs**. Examples include:
 
-📌 Full content in: `non-functional-requirements.md`
+- **Performance**: Page load ≤ 2 seconds  
+- **Security**: Encrypted user and payment data  
+- **Scalability**: Support increasing users and listings  
+- **Availability**: 24/7 uptime ≥ 99%  
+- **Usability**: Intuitive and accessible interface  
 
 ---
 
 ## 👥 System Actors
-- Guest  
-- Registered User  
-- Property Owner  
-- System Administrator  
+- **Guest**: Browse properties and create an account  
+- **Registered User**: Book and manage reservations  
+- **Property Owner**: List and manage properties  
+- **Administrator**: Supervise the system, manage users and listings  
 
 ---
 
-## 🎬 Use Case Model
-A use case diagram will be included to illustrate interactions between users and the system.
+## 🎬 Use Cases
+Key use cases include:
 
-📌 Diagram: `use-case-diagram.png`  
-📌 Description: `use-case-descriptions.md`
+1. **Search Property**: Users search and filter available properties.  
+2. **Book Property**: Users reserve properties and complete payment.  
+3. **Manage Listings**: Property owners add, update, or remove property listings.  
+4. **User Management**: Admin manages users, bookings, and listings.  
+
+![Airbnb usecase](https://github.com/user-attachments/assets/0ea47cf5-a55b-4cc5-92b4-0c315648c84c)
+
 
 ---
 
 ## ✅ Acceptance Criteria
-Defined for all major functional requirements to ensure:
-- Correct functionality
-- Stakeholder-approved outcomes
-- Usability and reliability of features
+Each feature must meet specific conditions to be considered complete:
 
-📌 Full list: `acceptance-criteria.md`
-
----
-
-## 🧠 Role of Requirement Analysis
-Requirement Analysis ensures:
-- Clear project scope
-- Accurate development planning
-- Reduced risk of costly changes later
-- Stakeholder alignment and satisfaction
+- Booking is successful only if payment is confirmed  
+- Property is marked unavailable after confirmed booking  
+- Users can update their profile without affecting bookings  
+- Admin can generate reports and manage system data  
 
 ---
 
-## ✅ Final Notes
-This repository serves as a complete requirement blueprint for the Booking Management System and forms the foundation for future design and implementation stages.
+## 🧾 Conclusion
+This README.md serves as a complete **requirement analysis blueprint** for a Property Booking System. It covers all aspects of requirement gathering, documentation, functional & non-functional requirements, actors, use cases, and acceptance criteria to provide a solid foundation for development.
 
----
